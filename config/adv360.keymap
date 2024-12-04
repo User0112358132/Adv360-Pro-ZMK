@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
- &mt ESC CAPSLOCK     &kp N1      &kp N2             &kp N3        &kp N4  &kp N5                     &mo 3                                                                                 &mo 3  &kp N6                &kp N7                &kp N8    &kp N9    &kp N0      &kp MINUS
-          &kp TAB      &kp Q       &kp W              &kp E         &kp R   &kp T             &kp C_AC_COPY                                                                             &kp LC(S)   &kp Y                 &kp U                 &kp I     &kp O     &kp P      &kp EQUAL
- &kp LEFT_CONTROL      &kp A       &kp S              &kp D         &kp F   &kp G            &kp C_AC_PASTE  &kp LEFT_ALT           &kp LGUI                   &kp LGUI  &kp LC(W)  &kp LC(COMMA)   &kp H                 &kp J                 &kp K     &kp L  &kp SEMI        &kp SQT
-        &kp LSHFT      &kp Z       &kp X              &kp C         &kp V   &kp B                                          &mt HOME LC(HOME)                  &kp PG_UP                             &kp N                 &kp M             &kp COMMA   &kp DOT  &kp FSLH  &kp BACKSLASH
-            &mo 2  &kp GRAVE  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP                     &kp BACKSPACE    &kp LSHIFT    &mt END LC(END)                  &kp PG_DN  &kp ENTER      &kp SPACE          &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp LBKT  &kp RBKT          &mo 2
+     &mt CAPS ESC     &kp N1      &kp N2             &kp N3        &kp N4  &kp N5                     &mo 3                                                                                   &mo 3  &kp N6                &kp N7                &kp N8    &kp N9    &kp N0      &kp MINUS
+          &kp TAB      &kp Q       &kp W              &kp E         &kp R   &kp T             &kp C_AC_COPY                                                                               &kp LC(S)   &kp Y                 &kp U                 &kp I     &kp O     &kp P      &kp EQUAL
+ &kp LEFT_CONTROL      &kp A       &kp S              &kp D         &kp F   &kp G            &kp C_AC_PASTE  &kp LEFT_ALT      &kp LGUI                   &kp LGUI         &kp LC(W)  &kp LC(COMMA)   &kp H                 &kp J                 &kp K     &kp L  &kp SEMI        &kp SQT
+        &kp LSHFT      &kp Z       &kp X              &kp C         &kp V   &kp B                                          &kp LC(HOME)                  &kp PG_UP                                    &kp N                 &kp M             &kp COMMA   &kp DOT  &kp FSLH  &kp BACKSLASH
+            &mo 2  &kp GRAVE  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP                     &kp BACKSPACE    &kp LSHIFT   &kp LC(END)                  &kp PG_DN  &mt RSHIFT ENTER      &kp SPACE          &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp LBKT  &kp RBKT          &mo 2
             >;
         };
 
@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6             &tog 1                                                                        &mo 3  &kp F7          &kp F8          &kp F9          &kp F10  &kp F11  &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans              &none                                                                        &none  &trans           &none    &kp UP_ARROW            &none   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans              &none     &trans  &trans                  &trans                 &trans      &none   &none  &kp LEFT_ARROW    &kp UP_ARROW  &kp RIGHT_ARROW   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans                                &trans                  &trans                                     &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &trans   &trans
- &trans  &trans  &trans  &trans  &trans                    &kp DEL  &kp LSHFT  &trans                  &trans  &mt ENTER RIGHT_SHIFT  &kp SPACE                   &none  &kp DOWN_ARROW            &none   &trans   &trans
+ &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6             &tog 1                                                                     &mo 3  &kp F7          &kp F8          &kp F9          &kp F10  &kp F11  &kp F12
+ &trans  &trans  &trans  &trans  &trans  &trans              &none                                                                     &none  &trans           &none    &kp UP_ARROW            &none   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans              &none     &trans    &trans                  &trans            &trans      &none   &none  &kp LEFT_ARROW    &kp UP_ARROW  &kp RIGHT_ARROW   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                &kp HOME                  &trans                                &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans                    &kp DEL  &kp LSHFT   &kp END                  &trans  &mt RSHIFT ENTER  &kp SPACE                   &none  &kp DOWN_ARROW            &none   &trans   &trans
             >;
         };
 
